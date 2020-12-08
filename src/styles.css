@@ -1,0 +1,110 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  margin: 15px;
+}
+
+.row {
+  margin-left: 170px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-top: 100px;
+}
+
+.card:hover {
+  transform: scale(1.06);
+}
+
+.card > .MuiAvatar-root {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.card > p {
+  margin-top: 10px;
+  color: gray;
+}
+
+.card > h3 {
+  margin-top: 10px;
+  font-size: medium;
+}
+
+.card > .MuiAvatar-circle {
+  border-style: solid;
+  color: gray;
+}
+
+.desc__color {
+  color: #5ac53b !important;
+  font-size: large;
+}
+
+.card__comma {
+  width: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.heading__p {
+  color: #5ac53b;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.heading__h {
+  margin-top: -10px;
+}
+
+hr.line {
+  border-top: 3px dotted black;
+  width: 5%;
+  margin-left: 48%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+hr.footer__line {
+  border-top: 5px dotted #5ac53b;
+  width: 5%;
+  margin-left: 48%;
+  margin-top: 5px;
+  margin-top: 30px;
+}
+
+.head__info {
+  color: gray;
+}
